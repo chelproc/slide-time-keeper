@@ -86,7 +86,7 @@ export default function CapturePage() {
           setRecognizedNumber(page);
         }
       });
-    }, 1000);
+    }, 500);
 
     return () => {
       clearInterval(timerId);

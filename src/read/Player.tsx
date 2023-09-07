@@ -89,7 +89,7 @@ export default function Player(props: { script: string; onExit(): void }) {
           style={{
             display: "flex",
             justifyContent: "center",
-            fontSize: "24px",
+            fontSize: "32px",
             gap: "10px",
             fontWeight: "bold",
           }}
@@ -124,7 +124,7 @@ export default function Player(props: { script: string; onExit(): void }) {
           type="button"
           onClick={props.onExit}
         >
-          Exit
+          x
         </button>
         <button
           style={{ fontSize: "24px" }}
